@@ -5,9 +5,9 @@ Many of the applications we build rely on storing and retrieving data. One of th
 
 During this workshop, we will look at Go's abstraction of database interaction through the [`database/sql`](https://golang.org/pkg/database/sql/) package and use driver implementations for working with data in [MySQL](https://dev.mysql.com/downloads/) as one of the most popular relational databases.
 
-NoSQL databases have also become very popular for certain use cases. Using MongoDB, we'll dive into document-oriented storage with Go.
+NoSQL databases have also become very popular for certain use cases. Using [MongoDB](https://www.mongodb.com/), we'll dive into document-oriented storage with Go.
 
-Lastly, we'll eschew database servers altogether and use the popular BoltDB package in Go to store and retrieve data using strictly Go types (no tables, no sql, etc).
+Lastly, we'll eschew database servers altogether and use the popular [BoltDB](https://github.com/boltdb/bolt) package in Go to store and retrieve data using strictly Go types (no tables, no sql, etc).
 
 ## Workshop Logistics
 This workshop is about hands-on development with Go. Each section will be preceded by a brief introduction of the material and some examples by the instructor followed by you working through the exercises tailored for each section.
